@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <Greet name="Israel" message={100} isLoggedIn={true}/>
+      <Greet name="Israel" isLoggedIn={true}/>
       {/* <Person name={personName}/> */}
       <PersonList name = {nameList}/>
       <Status status='success'/>
