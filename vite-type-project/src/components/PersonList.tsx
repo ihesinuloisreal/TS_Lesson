@@ -1,8 +1,8 @@
+import { Name } from "./Person.types"
+
+
 type listProps = {
-    name: {
-        first: string
-        last: string
-    }[]
+    name: Name[]
 }
 export const PersonList = (props: listProps) => {
     return (
