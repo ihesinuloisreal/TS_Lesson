@@ -9,6 +9,8 @@ import { Osca } from './components/Osca'
 import { Person } from './components/Person'
 import { PersonList } from './components/PersonList'
 import { Status } from './components/Status'
+import { Login } from './components/state/Login'
+import { User } from './components/state/User'
 
 function App() {
   // const personName = {
@@ -52,6 +54,8 @@ function App() {
       }}/>
       <Input value="" handleChange={event=>console.log(event)} />
       <Container style={{ border: '1px solid black', padding: '1rem' }}/> */}
+      {/* <Login/> */}
+      <User/>
     </div>
   )
 }
